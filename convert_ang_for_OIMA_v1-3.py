@@ -89,7 +89,7 @@ def convert_emsphinx_to_oim():
         return
 
     # Replace orientation data (columns 0,1,2)
-    nosi.iloc[:, 0:2] = si.iloc[:, 0:2]
+    nosi.iloc[:, 0:3] = si.iloc[:, 0:3]
 
     # Replace CI (column 6)
     nosi.iloc[:, 6] = si.iloc[:, 6]
